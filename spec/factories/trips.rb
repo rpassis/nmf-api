@@ -1,5 +1,6 @@
 FactoryGirl.define do
   factory :trip do
-    route_id ""
+    id { SecureRandom.uuid }
+    route
   end
 end

@@ -34,6 +34,7 @@ RSpec.describe V1::AgenciesController, type: :controller do
       record = JSON(response.body)
       expect(record["id"]).to eq(@agency.id)
     end
+
   end
 
 end

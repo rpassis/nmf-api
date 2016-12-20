@@ -1,5 +1,5 @@
 FactoryGirl.define do
   factory :agency do
-    id SecureRandom.hex    
+    id { SecureRandom.uuid }
   end
 end
