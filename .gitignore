@@ -4,7 +4,8 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
-full*.zip
+full_greater_sydney_gtfs_static.zip
+.irb_history
 
 # Ignore bundler config.
 /.bundle
